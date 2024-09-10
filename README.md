@@ -7,10 +7,6 @@ STM32WB0x workshop
 
 </awarning>
 
-
-# Add application code to move to discoverable - ( Replacing code previously used during part 1. )
-<br>
-
 ----
 
 1.code needs to be added in **STM32_WPAN/App/app_ble.c** inside the function App_BLE_Init ~line 558 in **/*USER CODE BEGIN APP_BLE_Init_2*/**
