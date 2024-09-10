@@ -1,9 +1,12 @@
 # STM32WB0_WS
 STM32WB0x workshop 
 
-----!
-Presentation
-----!
+
+<awarning>
+**You can get BLE_WS_WB0_HandsOn.ioc from this **[link](https://github.com/stm32ws2023/STM32WBA_HO2_Template)**
+
+</awarning>
+
 
 # Add application code to move to discoverable - ( Replacing code previously used during part 1. )
 <br>
