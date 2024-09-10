@@ -9,6 +9,21 @@ STM32WB0x workshop
 
 ----
 
+# BLE_P2PSever UUID 
+Service UUID
+```c
+8F E5 B3 D5 2E 7F 4A 98 2A 48 7A CC 40 FE 00 00
+```
+LED UUID
+```c
+19 ED 82 AE ED 21 4C 9D 41 45 22 8E 41 FE 00 00
+```
+Switch UUID
+```c
+19 ED 82 AE ED 21 4C 9D 41 45 22 8E 42 FE 00 00
+```
+
+# Add application code to move to discoverable
 1.code needs to be added in **STM32_WPAN/App/app_ble.c** inside the function App_BLE_Init ~line 558 in **/*USER CODE BEGIN APP_BLE_Init_2*/**
 
 ```c
@@ -31,6 +46,12 @@ HAL_GPIO_TogglePin(GPIOB, LED_GREEN_Pin|LED_BLUE_Pin|LED_RED_Pin);
 
 # Add application code to rise an alarm from device to Smartphone
 
+0. Enable RCC_SYSCFG clock in **main.c**  ~line 279  in **/*SER CODE BEGIN MX_GPIO_Init_1*/**
+This section will not be needed for coming version of STM32CubeIDE
+
+```c
+__HAL_RCC_SYSCFG_CLK_ENABLE();
+```  
 1. code needs to be added in **Core/Inc/app_conf.h** ~line 436  in **/*USER CODE BEGIN CFG_Task_Id_t*/**
 
 ```c
