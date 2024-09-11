@@ -3,8 +3,9 @@ STM32WB0x workshop
 
 
 <awarning>
-	
-**You can get BLE_WS_WB0_HandsOn.ioc used for HandsOn#4 (P2P_Server) from this **[link](https://github.com/stm32ws2023/STM32WB0_WS/blob/main/STM32WB09_IOC_WS_WB0/BLE_WS_WB0_HandsOn.ioc )**
+
+
+:warning: You can get BLE_WS_WB0_HandsOn.ioc used for HandsOn#4 (P2P_Server) from this **[link](https://github.com/stm32ws2023/STM32WB0_WS/blob/main/STM32WB09_IOC_WS_WB0/BLE_WS_WB0_HandsOn.ioc )**
 
 </awarning>
 
